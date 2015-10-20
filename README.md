@@ -16,13 +16,13 @@ this.
 ## Authentication
 
 Authentication is enabled in the default docker image using a password
-generated at create time. The username is always "admin". You can't currently
+generated at create time. The username is always `admin`. You can't currently
 set ACLs or add additional users.
 
 ## Environment
 
-The target container gets an MQTT_URL environment variable in the format
-mqtt://admin:PASSWORD@IP/, that you can use to connect inside your app.
+The target container gets an `MQTT_URL` environment variable in the format
+`mqtt://admin:PASSWORD@IP/`, that you can use to connect inside your app.
 
 You can see the password with:
 
